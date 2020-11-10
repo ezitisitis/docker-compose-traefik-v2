@@ -27,5 +27,5 @@ services:
       - "traefik.http.routers.traefik-secure.service=api@internal"
 
 networks:
-  gateway:
+  proxy:
     name: traefik_proxy
