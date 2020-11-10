@@ -7,7 +7,7 @@ services:
     image: traefik:2.2
     restart: always
     networks:
-      - gateway
+      - proxy
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./traefik.yml:/etc/traefik/traefik.yml
@@ -28,4 +28,4 @@ services:
 
 networks:
   gateway:
-    name: traefik_gateway
+    name: traefik_proxy
