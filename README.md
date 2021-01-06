@@ -4,7 +4,7 @@ This repository contains docker-compose with traefik v2.
 
 * [Traefik](https://docs.traefik.io/)
 
-# Installation
+## Installation
 
 Copy and edit `traefik.toml`
 ```bash
@@ -16,3 +16,7 @@ Run docker-compose
 ```bash
 docker-compose up -d
 ```
+
+## Usage
+
+Now in local environment traefik is available by next link: https://traefik.docker.localhost
