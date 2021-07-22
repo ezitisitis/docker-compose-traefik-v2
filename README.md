@@ -6,10 +6,10 @@ This repository contains docker-compose with traefik v2.
 
 ## Installation
 
-Copy and edit `traefik.toml`
+Copy and edit `traefik.yml`
 ```bash
-cp traefik.toml.example traefik.toml
-vi traefik.toml
+cp traefik.yml.example traefik.yml
+vi traefik.yml
 ```
 
 Run docker-compose
